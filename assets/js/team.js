@@ -53,15 +53,6 @@ const team = [
         img: "./assets/img/team/team-23/manager.png",
     },
     {
-        name: "Raian Hossain",
-        designation: "Design Team Lead",
-        email: "",
-        facebook: "",
-        linkedin: "",
-        website: "",
-        img: "./assets/img/team/team-23/designTeamLead.png",
-    },
-    {
         name: "Md Masum Al Mahmud",
         designation: "Business Team Lead",
         email: "",
@@ -87,6 +78,15 @@ const team = [
         linkedin: "",
         website: "",
         img: "./assets/img/team/team-23/legislativeTeamLead.png",
+    },
+    {
+        name: "Raian Hossain",
+        designation: "Design Team Lead",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/designTeamLead.png",
     },
     {
         name: "Newaz Arefin Rafid",
