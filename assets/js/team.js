@@ -1,14 +1,34 @@
 //Raw data
 const advisor = [
     {
-        name: "",
-        designation: "",
-        dept: "",
+        name: "Md. Wahedul Islam",
+        designation: "Associate Professor",
+        dept: "Mechanical",
         email: "",
         facebook: "",
         linkedin: "",
         website: "",
-        img: "",
+        img: "./assets/img/advisor/wahedul.jpg",
+    },    
+    {
+        name: "Miftahul Mobin Chowdhury Shabdik",
+        designation: "Lecturer",
+        dept: "Mechanical",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/advisor/shabdik.jpg",
+    },
+    {
+        name: "Mim Mashrur Ahmed",
+        designation: "Lecturer",
+        dept: "Mechanical",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/advisor/masrur.jpg",
     },
 ];
 
@@ -46,8 +66,8 @@ const team = [
 //html code ready
 const advisorHTML = advisor.map((item) => {
     return`
-        <div class="col-md-6 col-lg-6 item wow fadeIn">
-            <img class="rounded-circle" src="${item.img}">
+        <div class="col-md-6 col-lg-4 item wow fadeIn">
+            <img class="rounded-circle" src="${item.img}" height="150px" width="150px">
             <h3 class="name">${item.name}</h3>
             <p class="description">${item.designation}
                 <br>Dept. of ${item.dept} Engineering
