@@ -21,7 +21,7 @@ const team = [
         facebook: "",
         linkedin: "",
         website: "",
-        img: "../img/team/team-23/Captain.png",
+        img: "./assets/img/team/team-23/Captain.png",
     },
     {
         name: "Newaz Arefin Rafid",
@@ -30,7 +30,7 @@ const team = [
         facebook: "",
         linkedin: "",
         website: "",
-        img: "../img/team/team-23/Co-captain.png",
+        img: "./assets/img/team/team-23/Co-captain.png",
     },
     {
         name: "Md Rafi Khan",
@@ -39,7 +39,7 @@ const team = [
         facebook: "",
         linkedin: "",
         website: "",
-        img: "../img/team/team-23/manager.png",
+        img: "./assets/img/team/team-23/manager.png",
     },
 ]
 
