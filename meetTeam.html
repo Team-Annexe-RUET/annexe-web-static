@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124727524-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-124727524-1');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- SEO -->
+  <title>Team Annexe RUET</title>
+  <meta name="description" content="Team Annexe is a dedicated student organization comprised of driven undergraduate students from RUET (Rajshahi University of Engineering & Technology). With a strong passion for automotive innovation, the team embarks on a journey to explore cutting-edge technology, hone essential skills, and advance the field of automotive engineering through participation in prestigious competitions. Their mission is to push the boundaries of creativity and engineering prowess while showcasing their talents on platforms such as Formula Student Go Kart and NASA Human Rover challenges. Through their unwavering commitment and enthusiasm, Team Annexe not only seeks to excel in competitions but also to inspire others to pursue excellence in the realm of automotive design and innovation." />
+  <meta name="robots" content="index, follow" />
+  <meta name="referrer" content="always" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://unpkg.com/ionicons@4.3.0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+    <div class="container">
+        <a class="nav-link" href="./index.html" >
+            <img src="./assets/img/image.png" height="40px" >
+          </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navcol-1">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="./index.html#about">About</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="./index.html#projects">Projects</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="./index.html#display">Gallery</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="./index.html#advisors">Team</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="./index.html#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<main>
+      <!--Team Member-->
+  <div class="team-clean" id="team" style="background-color:rgb(255,255,255);">
+    <div class="container">
+      <div class="intro wow fadeIn">
+        <h2 class="text-center">Team </h2>
+      </div>
+
+      <div class="row people" id="team_member"> 
+        <!--All team member will arrive here-->
+      </div>
+      <div>
+        <a class="error_button" style="justify-content: space-between; align-items: center;;" href="./index.html">Return to home</a>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<script>
+    const team = [
+    {
+        name: "Zubayer Rahman Anik",
+        designation: "Team Captain",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/Captain.png",
+    },
+    {
+        name: "Md Rafi Khan",
+        designation: "Team Manager",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/manager.png",
+    },
+    {
+        name: "Md Fahim Shahriar",
+        designation: "Legislative Team Lead",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/legislativeTeamLead.png",
+    },
+    {
+        name: "Md Masum Al Mahmud",
+        designation: "Business Team Lead",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/businessTeamLead.png",
+    },
+    {
+        name: "Tammem Hasan",
+        designation: "Technical Team Lead",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/technicalTeamLead.png",
+    },
+    {
+        name: "Raian Hossain",
+        designation: "Design Team Lead",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/team/team-23/designTeamLead.png",
+    },
+]
+
+    const teamHTML = team.map((item) => {
+        return`
+        <div class="col-md-6 col-lg-4 item wow fadeIn">
+            <img class="rounded-circle" src="${item.img}" alt="${item.designation}">
+            <h3 class="name">${item.name}</h3>
+            <p class="description">${item.designation}</p>
+            <div class="social">
+                <a href="${item.email}">
+                  <i class="fa fa-envelope"></i>
+                </a>
+                <a href="${item.facebook}" target="_blank">
+                  <i class="fa fa-facebook-official"></i>
+                </a>
+                <a href="${item.linkedin}" target="_blank">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="${item.website}" target="_blank">
+                  <i class="fa fa-website"></i>
+                </a>
+            </div>
+        </div>
+        `;
+    }).join("")
+    
+document.getElementById("team_member").innerHTML = teamHTML;
+
+</script>
+</body>
+
+</html>

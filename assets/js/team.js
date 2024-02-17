@@ -8,7 +8,7 @@ const advisor = [
         facebook: "",
         linkedin: "",
         website: "",
-        img: "./assets/img/advisor/robiul_islam.jpg",
+        img: "./assets/img/advisor/robiul_islam.png",
     },{
         name: "Md. Wahedul Islam",
         designation: "Associate Professor",
@@ -102,7 +102,7 @@ const team = [
 //html code ready
 const advisorHTML = advisor.map((item) => {
     return`
-        <div class="col-md-6 col-lg-4 item wow fadeIn">
+        <div class="col-md-6 col-lg-6 item wow fadeIn">
             <img class="rounded-circle" src="${item.img}" height="150px" width="150px">
             <h3 class="name">${item.name}</h3>
             <p class="description">${item.designation}
