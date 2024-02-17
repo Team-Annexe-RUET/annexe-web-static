@@ -1,6 +1,15 @@
 //Raw data
 const advisor = [
     {
+        name: "Md Rabiul Islam Sarker",
+        designation: "Professor",
+        dept: "Mechanical",
+        email: "",
+        facebook: "",
+        linkedin: "",
+        website: "",
+        img: "./assets/img/advisor/robiul_islam.jpg",
+    },{
         name: "Md. Wahedul Islam",
         designation: "Associate Professor",
         dept: "Mechanical",
@@ -87,15 +96,6 @@ const team = [
         linkedin: "",
         website: "",
         img: "./assets/img/team/team-23/designTeamLead.png",
-    },
-    {
-        name: "Newaz Arefin Rafid",
-        designation: "Team Co-Captain",
-        email: "",
-        facebook: "",
-        linkedin: "",
-        website: "",
-        img: "./assets/img/team/team-23/Co-captain.png",
     },
 ]
 
