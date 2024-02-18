@@ -44,12 +44,11 @@ const advisor = [
 
 const team = [
   {
-    name: "Zubayer Rahman Anik",
+    name: "Zubaer Rahman Anik",
     designation: "Team Captain",
-    email: "",
-    facebook: "",
-    linkedin: "",
-    website: "",
+    email: "zranik3@gmail.com ",
+    facebook: "https://www.facebook.com/profile.php?id=100007607086172&mibextid=ZbWKwL",
+    linkedin: "https://www.linkedin.com/in/zubaer-rahman-923b681a3",
     img: "./assets/img/team/team-23/Captain.png",
   },
   {
