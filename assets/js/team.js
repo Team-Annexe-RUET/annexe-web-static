@@ -47,34 +47,33 @@ const team = [
     name: "Zubaer Rahman Anik",
     designation: "Team Captain",
     email: "zranik3@gmail.com ",
-    facebook:
-      "https://www.facebook.com/profile.php?id=100007607086172&mibextid=ZbWKwL",
+    facebook: "https://www.facebook.com/profile.php?id=100007607086172&mibextid=ZbWKwL",
     linkedin: "https://www.linkedin.com/in/zubaer-rahman-923b681a3",
     img: "./assets/img/team/team-23/Captain.png",
   },
   {
     name: "Md Rafi Khan",
     designation: "Team Manager",
-    email: "",
-    facebook: "",
-    linkedin: "",
+    email: "rafikhan2503@gmail.com",
+    facebook: "https://www.facebook.com/rafikhan.tanviranjumn",
+    linkedin: "https://www.linkedin.com/in/md-rafi-khan-116541204/",
     website: "",
     img: "./assets/img/team/team-23/manager.png",
   },
   {
-    name: "Md Fahim Shahriar",
-    designation: "Legislative Team Lead",
-    email: "",
-    facebook: "",
-    linkedin: "",
+    name: "Md. Fahim Shahriar ",
+    designation: "Legislative Lead ",
+    email: "fahimshahriar130@gmail.com ",
+    facebook: "https://www.facebook.com/fahimshahriar142487?mibextid=ZbWKwL",
+    linkedin: "https://www.linkedin.com/in/fahim-shahriar-7800881b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     website: "",
     img: "./assets/img/team/team-23/legislativeTeamLead.png",
   },
   {
     name: "Md Masum Al Mahmud",
     designation: "Business Team Lead",
-    email: "",
-    facebook: "",
+    email: "masum.akik@gmail.com ",
+    facebook: "https://www.facebook.com/masum.akik",
     linkedin: "",
     website: "",
     img: "./assets/img/team/team-23/businessTeamLead.png",
@@ -125,6 +124,15 @@ const advisorHTML = advisor
                 ${
                   item.linkedin
                     ? `<a href="${item.linkedin}" target="_blank"><i class="fa fa-linkedin"></i></a>`
+                    : ""
+                }
+                ${
+                  item.website
+                    ? `
+                <a href="${item.website}" target="_blank">
+                  <i class="fa fa-globe"></i>
+                </a>
+                `
                     : ""
                 }
             </div>
