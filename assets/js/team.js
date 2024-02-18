@@ -47,7 +47,8 @@ const team = [
     name: "Zubaer Rahman Anik",
     designation: "Team Captain",
     email: "zranik3@gmail.com ",
-    facebook: "https://www.facebook.com/profile.php?id=100007607086172&mibextid=ZbWKwL",
+    facebook:
+      "https://www.facebook.com/profile.php?id=100007607086172&mibextid=ZbWKwL",
     linkedin: "https://www.linkedin.com/in/zubaer-rahman-923b681a3",
     img: "./assets/img/team/team-23/Captain.png",
   },
@@ -159,7 +160,7 @@ const teamHTML = team
                         }
                         ${
                           item.website
-                            ? `<a href="${item.website}" target="_blank"><i class="fa fa-website"></i></a>`
+                            ? `<a href="${item.website}" target="_blank"><i class="fa fa-globe"></i></a>`
                             : ""
                         }
                 </div>
